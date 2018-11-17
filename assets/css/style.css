@@ -1,0 +1,131 @@
+a:hover {
+    text-decoration: none;
+}
+
+ul.navbar-nav li.menu:hover {
+    background: #e7e7e7;
+}
+
+ul.navbar-nav li:hover {
+    background: #e7e7e7;
+}
+
+ul.actionlink{
+    float: right;
+    margin-top: -35px;
+    width: 80%;
+}
+
+ul.actionlink > li{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.modal-body{
+    padding: 5px;
+}
+
+@media (min-width: 768px){
+    .navbar {
+       border-radius: 0px;
+    }
+}
+
+.breadcrumb{
+    margin-bottom:0px;
+    border-radius: 0px;
+}
+
+.navbar{
+    border:0px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgb(51, 76, 203);
+}
+
+.navbar-brand{
+    padding: 0px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height:60px;
+    background: #f5f5f5;
+}
+
+.footer p{
+    margin: 0px;
+}
+/*########*/
+.panel, .panel-heading{
+    border-radius:0px;
+}
+
+.panel-body{
+    min-height: 10px;
+    padding:0px;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+.select2-container .select2-choice{
+    height: 30px;
+    line-height: 30px;
+}
+
+.form-control{
+    height: 30px;
+}
+
+.btn{
+    padding: 5px 12px;
+}
+
+.form-control-select{
+    width: 100%;
+}
+
+.sp_validate{
+    color: red;
+}
+
+input[type='checkbox']{
+    margin: 10px 0 0;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+input[type='radio']{
+    margin: 10px 0 0;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+/*vline*/
+.title-vline{
+    background: #FFFFFF url(../images/vline.png) scroll 0px 2px repeat-x;
+    margin-bottom: 10px;
+}
+
+.title-vline span{
+    background-color: #FFFFFF;
+    padding: 0 5px 0 0;
+    color: #367D15;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#modal-title{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+}

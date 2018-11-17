@@ -1,0 +1,152 @@
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+.col-md-1, .col-md-10, .col-md-11, .col-md-12,
+.col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12,
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12,
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
+.col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	padding: 0px;
+}
+
+.panel-heading{
+	padding: 3px 15px;
+}
+
+.multicol > div:last-child{
+	padding-left: 5px;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th{
+	padding: 0px 2px;
+	height: 29px;
+	line-height: 29px;
+}
+
+.tab-content{
+	border: 1px solid #337AB7;
+	padding: 0px;
+	height: 153px; /*!important;*/
+	border-top: none;
+}
+
+#tbl_history tbody, #tbl_schedule tbody{
+	height: 113px;
+}
+
+.nav-tabs{
+	border-bottom: 1px solid #337AB7;
+}
+
+.nav-tabs > li > a{
+	border-radius: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	border-color: #337AB7 #337AB7 transparent;
+}
+
+.control-full{
+	width: 100% !important;
+}
+
+textarea{
+	height: 50px !important;
+	resize: none;
+}
+
+label, input, button, select, textarea{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+#saveInformation > tbody > tr > td > label{
+	margin-bottom: 0px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	vertical-align: middle;
+	margin: 0px 5px 0px 1px;
+}
+
+#saveInformation th, #saveInformation td{
+	padding: 1px;
+	vertical-align: middle;
+	line-height: 29px;
+	text-align: left;
+}
+
+.select2-container .select2-choice{
+	height: 29px;
+	line-height: 29px;
+	border-radius: 0px;
+	margin-top: 0px;
+}
+
+.select2-search input{
+	padding: 0px 20px 0px 5px;
+	min-height: 29px;
+}
+
+.select2-drop{
+	border-radius:0px;
+}
+
+.input-group-addon{
+	border-radius:0px;
+}
+
+.btn{
+	border-radius:0px;
+}
+
+#tabs > li > a {
+    padding: 2px 15px;
+}
+
+.k-datetimepicker{
+	width: 100%;
+}
+
+.alert-call-detail{
+	padding: 5px 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-radius: 0px;
+}
+
+#tbl_history tbody, #tbl_schedule tbody{
+	overflow-y: scroll;
+  	height: 119px;
+  	width: 100%;
+  	position: absolute;
+  	border: 1px solid #CCCCCC;
+	margin-left: -1px;
+}
+
+#tbl_history tbody tr, #tbl_schedule tbody tr{
+	width: 100%;
+	display: inline-table;
+}
+
+.multicol > div:last-child{
+	padding-left: 0px;
+}
+
+.control-full{
+	border: 0px;
+}
+
+#saveInformation th, #saveInformation td{
+	overflow: hidden;
+}

@@ -1,0 +1,83 @@
+.k-radio-label{
+    font-weight: normal;
+}
+
+.k-header{
+    min-height: 28px;
+}
+
+.k-grid-excel{
+    border-radius: 0px;
+}
+
+.grid-input{
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    height: 22px;
+}
+
+.km-switch{
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: -10px;
+}
+
+.km-switch-container{
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #CCC;
+    border-radius : 4px;
+}
+
+.km-switch-handle{
+    height: 28px;
+    line-height: 28px;
+    background-color: #CCC;
+}
+
+.km-switch-wrapper{
+    height: 28px;
+    line-height: 28px;
+}
+
+.km-switch-label-on{
+    height: 28px;
+    line-height: 28px;
+}
+
+.km-switch-label-off{
+    height: 28px;
+    line-height: 28px;
+}
+
+.pull-left{
+    /*width: 50%;*/
+    /*min-width: 250px;*/
+    min-width: 150px;
+}
+
+.btn{
+    border-radius:0px;
+    padding:2px 8px;
+}
+
+.fieldlist {
+    float: left;
+    margin: 0 0 -1em;
+    padding: 0;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.fieldlist li {
+    float: left;
+    list-style: none;
+    padding-bottom: 1em;
+    margin-left: 5px;
+}
+
+.fieldlist li:first-child{
+    margin-left: 0px;
+}
